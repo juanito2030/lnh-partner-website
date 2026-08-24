@@ -2,8 +2,9 @@
 import Icon from '@components/Icon.astro';
 import { imageSrc } from '@lib/sanity';
 
-type Props = { block: any };
-const { block } = Astro.props;
+type Props = { block: any; lang?: 'en' | 'es' };
+const { block, lang = 'en' } = Astro.props;
+const ctaCot = lang === 'es' ? 'Pedir cotización' : 'Request a quote';
 const products = block?.products ?? [];
 ---
 
@@ -65,7 +66,7 @@ const products = block?.products ?? [];
           <Icon name="external" class="h-4 w-4" />
         </a>
         <a href="#contact" class="btn-secondary">
-          Request a quote
+          {ctaCot}
           <Icon name="arrowRight" class="h-4 w-4" />
         </a>
       </div>

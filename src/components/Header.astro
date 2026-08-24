@@ -91,7 +91,7 @@ const otroIdioma = esEs ? { href: '/', code: 'EN' } : { href: '/es', code: 'ES' 
       </a>
       <a
         href={otroIdioma.href}
-        class="block w-full rounded-md border border-navy-900/15 py-2.5 text-center text-sm font-semibold text-navy-900"
+        class="block w-full rounded-md border border-white/30 py-3 text-center text-sm font-semibold text-white"
       >
         {esEs ? 'View in English' : 'Ver en español'}
       </a>
@@ -106,6 +106,7 @@ const otroIdioma = esEs ? { href: '/', code: 'EN' } : { href: '/es', code: 'ES' 
   const lightLogo = header?.querySelector('.header-logo-light');
   const darkLogo = header?.querySelector('.header-logo-dark');
   const navLinks = header?.querySelectorAll('.header-nav-link');
+  const langChip = header?.querySelector('.header-lang');
   const mobileLinks = menu?.querySelectorAll('.mobile-nav-link');
 
   let menuOpen = false;
@@ -123,8 +124,12 @@ const otroIdioma = esEs ? { href: '/', code: 'EN' } : { href: '/es', code: 'ES' 
       });
       burger?.classList.remove('text-white');
       burger?.classList.add('text-navy-900');
+      langChip?.classList.remove('text-white/85', 'border-white/25', 'hover:border-white/60', 'hover:text-white');
+      langChip?.classList.add('text-navy-700', 'border-navy-900/25', 'hover:border-navy-900/60', 'hover:text-navy-900');
     } else {
       header.classList.remove('bg-white', 'shadow-md', 'shadow-navy-900/5', 'backdrop-blur-md');
+      langChip?.classList.add('text-white/85', 'border-white/25', 'hover:border-white/60', 'hover:text-white');
+      langChip?.classList.remove('text-navy-700', 'border-navy-900/25', 'hover:border-navy-900/60', 'hover:text-navy-900');
       header.dataset.state = 'top';
       lightLogo?.classList.remove('hidden');
       darkLogo?.classList.add('hidden');

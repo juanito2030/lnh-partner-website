@@ -2,8 +2,20 @@
 import Icon from '@components/Icon.astro';
 import { imageSrc } from '@lib/sanity';
 
-type Props = { block: any };
-const { block } = Astro.props;
+type Props = { block: any; lang?: 'en' | 'es' };
+const { block, lang = 'en' } = Astro.props;
+const es = lang === 'es';
+const t = {
+  pergolas: es ? 'Pérgolas y cabañas' : 'Pergolas & Cabanas',
+  pergolasDesc: es
+    ? 'Diseños a la medida para cada propiedad — aluminio, madera dura y configuraciones motorizadas.'
+    : 'Custom designs tailored to each property — aluminum, hardwood, and motorized configurations.',
+  sunrooms: es ? 'Sunrooms y paredes de vidrio' : 'Sunrooms & Glass Walls',
+  playLabel: es ? 'Reproducir vídeo' : 'Play video',
+  sunroomsDesc: es
+    ? 'Cerramientos de vidrio corredizo que convierten cualquier patio en un espacio para todo el año.'
+    : 'Glass sliding wall enclosures that turn any patio into a four-season space.',
+};
 const features = block?.features ?? [];
 const imgUrl = block?.image ? imageSrc(block.image, 1400) : '';
 ---
@@ -28,21 +40,29 @@ const imgUrl = block?.image ? imageSrc(block.image, 1400) : '';
              little rather than cropping one a lot. -->
         <div class="relative aspect-[4/3] w-full">
           <video
-            class="h-full w-full object-cover"
+            class="video-lnh h-full w-full object-cover"
             poster="/assets/images/poster-pergola.jpg"
-            controls
             preload="none"
             playsinline
           >
             <source src="/assets/videos/pergola.mp4" type="video/mp4" />
           </video>
+          <button
+            type="button"
+            class="video-play absolute inset-0 flex items-center justify-center bg-navy-950/25 transition hover:bg-navy-950/10"
+            aria-label={t.playLabel}
+          >
+            <span class="flex h-16 w-16 items-center justify-center rounded-full bg-white/95 shadow-lg transition group-hover:scale-105">
+              <svg viewBox="0 0 24 24" class="ml-1 h-6 w-6 fill-navy-900"><path d="M8 5v14l11-7z"/></svg>
+            </span>
+          </button>
         </div>
         <div class="p-6">
           <span class="inline-block rounded-full bg-gold-500/15 px-3 py-1 text-xs font-semibold uppercase tracking-[0.15em] text-gold-300">
-            Pergolas & Cabanas
+            {t.pergolas}
           </span>
           <p class="mt-3 text-sm leading-relaxed text-white/70">
-            Custom designs tailored to each property — aluminum, hardwood, and motorized configurations.
+            {t.pergolasDesc}
           </p>
         </div>
       </div>
@@ -50,21 +70,29 @@ const imgUrl = block?.image ? imageSrc(block.image, 1400) : '';
       <div class="group relative overflow-hidden rounded-2xl bg-navy-950 shadow-card">
         <div class="relative aspect-[4/3] w-full">
           <video
-            class="h-full w-full object-cover"
+            class="video-lnh h-full w-full object-cover"
             poster="/assets/images/poster-sunroom.jpg"
-            controls
             preload="none"
             playsinline
           >
             <source src="/assets/videos/sunroom.mp4" type="video/mp4" />
           </video>
+          <button
+            type="button"
+            class="video-play absolute inset-0 flex items-center justify-center bg-navy-950/25 transition hover:bg-navy-950/10"
+            aria-label={t.playLabel}
+          >
+            <span class="flex h-16 w-16 items-center justify-center rounded-full bg-white/95 shadow-lg transition group-hover:scale-105">
+              <svg viewBox="0 0 24 24" class="ml-1 h-6 w-6 fill-navy-900"><path d="M8 5v14l11-7z"/></svg>
+            </span>
+          </button>
         </div>
         <div class="p-6">
           <span class="inline-block rounded-full bg-gold-500/15 px-3 py-1 text-xs font-semibold uppercase tracking-[0.15em] text-gold-300">
-            Sunrooms & Glass Walls
+            {t.sunrooms}
           </span>
           <p class="mt-3 text-sm leading-relaxed text-white/70">
-            Glass sliding wall enclosures that turn any patio into a four-season space.
+            {t.sunroomsDesc}
           </p>
         </div>
       </div>
@@ -92,3 +120,15 @@ const imgUrl = block?.image ? imageSrc(block.image, 1400) : '';
     </div>
   </div>
 </section>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>('.video-play').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const video = btn.parentElement?.querySelector('video');
+      if (!video) return;
+      video.controls = true;
+      video.play();
+      btn.remove();
+    });
+  });
+</script>

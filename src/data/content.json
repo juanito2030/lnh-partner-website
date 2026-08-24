@@ -48,6 +48,112 @@
         "visible": true
       },
       {
+        "_key": "f517252029cf4627",
+        "_type": "aboutBlock",
+        "badgeLabel": "Combined years",
+        "badgeValue": "50+",
+        "eyebrow": "About Us",
+        "headingAccent": "Not new to this.",
+        "headingStart": "New in Miami.",
+        "highlights": [
+          {
+            "_key": "90c43fd4121c4dc1",
+            "_type": "aboutHighlight",
+            "text": "Specialists in kitchen, bathroom & full home remodeling"
+          },
+          {
+            "_key": "8319a061493b4784",
+            "_type": "aboutHighlight",
+            "text": "Engineering-led project management from first drawing to final handover"
+          },
+          {
+            "_key": "ef0ad8892aa3442f",
+            "_type": "aboutHighlight",
+            "text": "In-house design and project management teams"
+          },
+          {
+            "_key": "b167124f68cd4706",
+            "_type": "aboutHighlight",
+            "text": "Transparent communication from estimate to completion"
+          },
+          {
+            "_key": "c2f8a1d4e5b60705",
+            "_type": "aboutHighlight",
+            "text": "Committed to quality craftsmanship and lasting results"
+          }
+        ],
+        "image": "/assets/images/about-remodel.webp",
+        "lead": "LNH & Partner is a young Miami company built on two long track records. Style, our European group, has spent 25 years in premium interiors and window coverings. Luis Herrera brings 25+ years of civil engineering and large-scale development from Venezuela. That experience is what we brought to South Florida — the company here is new, the trade is not.",
+        "visible": true
+      },
+      {
+        "_key": "4a1b3a51afdb48e8",
+        "_type": "projectsBlock",
+        "eyebrow": "Our Work",
+        "headingAccent": "projects.",
+        "headingStart": "Featured",
+        "projects": [
+          {
+            "_key": "doralkitchen0001",
+            "_type": "project",
+            "category": "Renovation · Miami",
+            "title": "Doral Kitchen Remodel",
+            "description": "Complete kitchen remodel in Doral, Miami — new layout with a central island, custom oak and black cabinetry, integrated appliances and pendant lighting.",
+            "image": "/assets/images/project-doral-kitchen.jpg"
+          },
+          {
+            "_key": "fa0b2c1000a841b0",
+            "_type": "project",
+            "category": "Hospitality",
+            "description": "Rooftop terrace and bar — tensioned shade canopies, bamboo screening and all-day outdoor seating overlooking the sea.",
+            "image": "/assets/images/project-hotel-mara.jpg",
+            "title": "Terraza Hotel Mara"
+          },
+          {
+            "_key": "8f307b0ba51b4241",
+            "_type": "project",
+            "category": "Hospitality",
+            "description": "Resort suites in the Dominican Republic — layered sheers and blackout drapery specified across the full room programme.",
+            "image": "/assets/images/project-punta-cana.jpg",
+            "title": "Urban Punta Cana"
+          },
+          {
+            "_key": "1b94ba869a264cbe",
+            "_type": "project",
+            "category": "Commercial",
+            "description": "Brand showroom and offices in Colombia — reception, display bays and meeting areas with integrated lighting.",
+            "image": "/assets/images/project-showroom-bogota.jpg",
+            "title": "Showroom Bogotá"
+          },
+          {
+            "_key": "65fe50bc300142b6",
+            "_type": "project",
+            "category": "Residential",
+            "description": "Apartment refurbishment in Spain — exposed timber beams, custom joinery and a complete window-covering package.",
+            "image": "/assets/images/project-granada.jpg",
+            "title": "Apartamentos Granada"
+          },
+          {
+            "_key": "e9f8f791a1304190",
+            "_type": "project",
+            "category": "Residential",
+            "description": "Full apartment fit-out in Thailand — roller blinds and sheer curtains on every opening, with bespoke cabinetry throughout.",
+            "image": "/assets/images/project-tailandia.jpg",
+            "title": "Apartamento Tailandia"
+          },
+          {
+            "_key": "8d4e1ba4f55f469b",
+            "_type": "project",
+            "category": "Exhibition",
+            "description": "Two-storey exhibition stand for R+T Stuttgart, the international trade fair for window coverings and sun protection.",
+            "image": "/assets/images/project-rt-stuttgart.jpg",
+            "title": "R+T Stuttgart"
+          }
+        ],
+        "visible": true,
+        "lead": "Our first Miami project leads the list. The rest is work delivered by Style Group, our partner company and one of the two track records behind LNH & Partner."
+      },
+      {
         "_key": "3d21ffa830ed4ab3",
         "_type": "servicesBlock",
         "eyebrow": "Our Specialty",
@@ -90,27 +196,47 @@
             "description": "Property development, acquisition, sales, and management. We connect clients with the right properties and investment opportunities.",
             "icon": "key",
             "title": "Real Estate"
+          }
+        ],
+        "visible": true
+      },
+      {
+        "_key": "4111207b48b9417c",
+        "_type": "whyBlock",
+        "eyebrow": "Why LNH & Partner",
+        "headingAccent": "difference.",
+        "headingStart": "The LNH",
+        "lead": "What sets us apart is not just what we build, but how we build it — with integrity, precision, and a relentless commitment to excellence.",
+        "points": [
+          {
+            "_key": "a3bd89d723f14223",
+            "_type": "whyPoint",
+            "description": "Decades of hands-on experience across construction, earthworks, infrastructure, and real estate sectors.",
+            "title": "Expertise"
           },
           {
-            "_key": "d65e473f2a3a466c",
-            "_type": "serviceItem",
-            "description": "Residential, commercial, and industrial construction projects built to the highest standards of quality, safety, and durability.",
-            "icon": "building",
-            "title": "Building Construction"
+            "_key": "8c4acd83e46c4c75",
+            "_type": "whyPoint",
+            "description": "We honor our commitments. Deadlines and budgets are respected — always. No surprises, no excuses.",
+            "title": "Reliability"
           },
           {
-            "_key": "adceedb746534445",
-            "_type": "serviceItem",
-            "description": "Roads, utilities, bridges, drainage systems, and public works infrastructure — engineered for longevity and performance.",
-            "icon": "road",
-            "title": "Infrastructure"
+            "_key": "d931684cb0fd49f7",
+            "_type": "whyPoint",
+            "description": "We embrace modern techniques, materials, and technologies to deliver superior outcomes efficiently.",
+            "title": "Innovation"
           },
           {
-            "_key": "2390e39bce774bf9",
-            "_type": "serviceItem",
-            "description": "Excavation, grading, land clearing, and site preparation with modern machinery and experienced operators.",
-            "icon": "shovel",
-            "title": "Earthworks"
+            "_key": "a0dad7b0254a4e6d",
+            "_type": "whyPoint",
+            "description": "Rigorous safety protocols across every site. Zero-compromise approach to protecting our people and clients.",
+            "title": "Safety First"
+          },
+          {
+            "_key": "eaddeebe65994b58",
+            "_type": "whyPoint",
+            "description": "Honest pricing, transparent processes, and clear communication build trust that lasts beyond the project.",
+            "title": "Integrity"
           }
         ],
         "visible": true
@@ -181,153 +307,6 @@
           }
         ],
         "visible": true
-      },
-      {
-        "_key": "f517252029cf4627",
-        "_type": "aboutBlock",
-        "badgeLabel": "Combined years",
-        "badgeValue": "50+",
-        "eyebrow": "About Us",
-        "headingAccent": "Not new to this.",
-        "headingStart": "New in Miami.",
-        "highlights": [
-          {
-            "_key": "90c43fd4121c4dc1",
-            "_type": "aboutHighlight",
-            "text": "Specialists in kitchen, bathroom & full home remodeling"
-          },
-          {
-            "_key": "8319a061493b4784",
-            "_type": "aboutHighlight",
-            "text": "Engineering-led project management from first drawing to final handover"
-          },
-          {
-            "_key": "ef0ad8892aa3442f",
-            "_type": "aboutHighlight",
-            "text": "In-house design and project management teams"
-          },
-          {
-            "_key": "b167124f68cd4706",
-            "_type": "aboutHighlight",
-            "text": "Transparent communication from estimate to completion"
-          },
-          {
-            "_key": "c2f8a1d4e5b60705",
-            "_type": "aboutHighlight",
-            "text": "Committed to quality craftsmanship and lasting results"
-          }
-        ],
-        "image": "/assets/images/about-remodel.webp",
-        "lead": "LNH & Partner is a young Miami company built on two long track records. Style, our European group, has spent 25 years in premium interiors and window coverings. Luis Herrera brings 25+ years of civil engineering and large-scale development from Venezuela. That experience is what we brought to South Florida — the company here is new, the trade is not.",
-        "visible": true
-      },
-      {
-        "_key": "4111207b48b9417c",
-        "_type": "whyBlock",
-        "eyebrow": "Why LNH & Partner",
-        "headingAccent": "difference.",
-        "headingStart": "The LNH",
-        "lead": "What sets us apart is not just what we build, but how we build it — with integrity, precision, and a relentless commitment to excellence.",
-        "points": [
-          {
-            "_key": "a3bd89d723f14223",
-            "_type": "whyPoint",
-            "description": "Decades of hands-on experience across construction, earthworks, infrastructure, and real estate sectors.",
-            "title": "Expertise"
-          },
-          {
-            "_key": "8c4acd83e46c4c75",
-            "_type": "whyPoint",
-            "description": "We honor our commitments. Deadlines and budgets are respected — always. No surprises, no excuses.",
-            "title": "Reliability"
-          },
-          {
-            "_key": "d931684cb0fd49f7",
-            "_type": "whyPoint",
-            "description": "We embrace modern techniques, materials, and technologies to deliver superior outcomes efficiently.",
-            "title": "Innovation"
-          },
-          {
-            "_key": "a0dad7b0254a4e6d",
-            "_type": "whyPoint",
-            "description": "Rigorous safety protocols across every site. Zero-compromise approach to protecting our people and clients.",
-            "title": "Safety First"
-          },
-          {
-            "_key": "eaddeebe65994b58",
-            "_type": "whyPoint",
-            "description": "Honest pricing, transparent processes, and clear communication build trust that lasts beyond the project.",
-            "title": "Integrity"
-          }
-        ],
-        "visible": true
-      },
-      {
-        "_key": "4a1b3a51afdb48e8",
-        "_type": "projectsBlock",
-        "eyebrow": "Our Work",
-        "headingAccent": "projects.",
-        "headingStart": "Featured",
-        "projects": [
-          {
-            "_key": "doralkitchen0001",
-            "_type": "project",
-            "category": "Renovation · Miami",
-            "title": "Doral Kitchen Remodel",
-            "description": "Complete kitchen remodel in Doral, Miami — new layout with a central island, custom oak and black cabinetry, integrated appliances and pendant lighting.",
-            "image": "/assets/images/project-doral-kitchen.jpg"
-          },
-          {
-            "_key": "fa0b2c1000a841b0",
-            "_type": "project",
-            "category": "Hospitality",
-            "description": "Rooftop terrace and bar — tensioned shade canopies, bamboo screening and all-day outdoor seating overlooking the sea.",
-            "image": "/assets/images/project-hotel-mara.jpg",
-            "title": "Terraza Hotel Mara"
-          },
-          {
-            "_key": "8f307b0ba51b4241",
-            "_type": "project",
-            "category": "Hospitality",
-            "description": "Resort suites in the Dominican Republic — layered sheers and blackout drapery specified across the full room programme.",
-            "image": "/assets/images/project-punta-cana.jpg",
-            "title": "Urban Punta Cana"
-          },
-          {
-            "_key": "1b94ba869a264cbe",
-            "_type": "project",
-            "category": "Commercial",
-            "description": "Brand showroom and offices in Colombia — reception, display bays and meeting areas with integrated lighting.",
-            "image": "/assets/images/project-showroom-bogota.jpg",
-            "title": "Showroom Bogotá"
-          },
-          {
-            "_key": "65fe50bc300142b6",
-            "_type": "project",
-            "category": "Residential",
-            "description": "Apartment refurbishment in Spain — exposed timber beams, custom joinery and a complete window-covering package.",
-            "image": "/assets/images/project-granada.jpg",
-            "title": "Apartamentos Granada"
-          },
-          {
-            "_key": "e9f8f791a1304190",
-            "_type": "project",
-            "category": "Residential",
-            "description": "Full apartment fit-out in Thailand — roller blinds and sheer curtains on every opening, with bespoke cabinetry throughout.",
-            "image": "/assets/images/project-tailandia.jpg",
-            "title": "Apartamento Tailandia"
-          },
-          {
-            "_key": "8d4e1ba4f55f469b",
-            "_type": "project",
-            "category": "Exhibition",
-            "description": "Two-storey exhibition stand for R+T Stuttgart, the international trade fair for window coverings and sun protection.",
-            "image": "/assets/images/project-rt-stuttgart.jpg",
-            "title": "R+T Stuttgart"
-          }
-        ],
-        "visible": true,
-        "lead": "Our first Miami project leads the list. The rest is work delivered by Style Group, our partner company and one of the two track records behind LNH & Partner."
       },
       {
         "_key": "f5c7c747e5fe41fa",

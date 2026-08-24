@@ -11,6 +11,9 @@ const t = {
   contact: es ? 'Contacto' : 'Contact',
   rights: es ? 'Todos los derechos reservados.' : 'All rights reserved.',
   proud: es ? 'Representante oficial de' : 'Proud representative of',
+  lema: es
+    ? 'Remodelación, construcción y bienes raíces con criterio de ingeniería en Miami, Florida.'
+    : 'Engineering-grade construction, real estate and finishing solutions in Miami, Florida.',
 };
 const links = siteConfig?.navLinks ?? [];
 const year = new Date().getFullYear();
@@ -23,7 +26,7 @@ const year = new Date().getFullYear();
     <div class="lg:col-span-1">
       <Logo variant="light" />
       <p class="mt-6 max-w-xs text-sm leading-relaxed text-white/60">
-        Engineering-grade construction, real estate and finishing solutions in Miami, Florida.
+        {t.lema}
       </p>
     </div>
 

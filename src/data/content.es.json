@@ -16,11 +16,11 @@
             "_type": "reference"
           }
         },
-        "eyebrow": "Especialistas en Reformas y Remodelación",
-        "headingStart": "Reformamos",
+        "eyebrow": "Especialistas en Remodelación de Cocinas y Baños",
+        "headingStart": "Remodelamos",
         "headingAccent": "tu espacio",
         "headingEnd": "a tu medida",
-        "lead": "Desde cocinas y baños hasta viviendas completas y espacios comerciales — LNH & Partner convierte tu proyecto en realidad con mano de obra de calidad y atención al detalle.",
+        "lead": "Desde remodelación de cocinas y baños hasta casas completas y espacios comerciales — LNH & Partner convierte tu proyecto en realidad con mano de obra de calidad y atención al detalle.",
         "primaryCtaHref": "#services",
         "primaryCtaLabel": "Ver nuestros servicios",
         "secondaryCtaHref": "#contact",
@@ -48,141 +48,6 @@
         "visible": true
       },
       {
-        "_key": "3d21ffa830ed4ab3",
-        "_type": "servicesBlock",
-        "eyebrow": "Nuestra especialidad",
-        "headingStart": "Reformas y",
-        "headingAccent": "remodelación",
-        "lead": "La remodelación es lo nuestro — cocinas, baños, viviendas completas y espacios comerciales transformados con mano de obra de calidad. También ofrecemos apoyo integral de construcción para sacar adelante cualquier proyecto.",
-        "services": [
-          {
-            "_key": "661a5d5b124b47c5",
-            "_type": "serviceItem",
-            "badge": "Specialty",
-            "description": "Reformas integrales de interior y exterior — convertimos espacios existentes en ambientes modernos, funcionales y bonitos.",
-            "icon": "hammer",
-            "title": "Reformas"
-          },
-          {
-            "_key": "3024726588f24e05",
-            "_type": "serviceItem",
-            "description": "Pérgolas diseñadas y construidas a medida para exteriores residenciales y comerciales — estructuras duraderas que revalorizan cualquier propiedad.",
-            "icon": "pergola",
-            "title": "Pérgolas"
-          },
-          {
-            "_key": "7f964a28f48549b1",
-            "_type": "serviceItem",
-            "description": "Acabados decorativos de interior y exterior, paisajismo, decoración exterior y detalles estéticos que transforman cualquier espacio.",
-            "icon": "sparkles",
-            "title": "Decoración y acabados"
-          },
-          {
-            "_key": "fb7c5dbd46f0454f",
-            "_type": "serviceItem",
-            "description": "Gestión integral del proyecto, desde la planificación y los permisos hasta la entrega — en plazo y dentro del presupuesto, siempre.",
-            "icon": "clipboard",
-            "title": "Gestión de proyectos"
-          },
-          {
-            "_key": "82ddabb5d75e42e8",
-            "_type": "serviceItem",
-            "description": "Promoción, compraventa y gestión de inmuebles. Conectamos a nuestros clientes con la propiedad y la oportunidad de inversión adecuadas.",
-            "icon": "key",
-            "title": "Inmobiliaria"
-          },
-          {
-            "_key": "d65e473f2a3a466c",
-            "_type": "serviceItem",
-            "description": "Obra residencial, comercial e industrial ejecutada con los máximos estándares de calidad, seguridad y durabilidad.",
-            "icon": "building",
-            "title": "Construcción"
-          },
-          {
-            "_key": "adceedb746534445",
-            "_type": "serviceItem",
-            "description": "Viales, servicios, puentes, drenajes e infraestructura de obra pública — diseñados para durar y rendir.",
-            "icon": "road",
-            "title": "Infraestructura"
-          },
-          {
-            "_key": "2390e39bce774bf9",
-            "_type": "serviceItem",
-            "description": "Excavación, nivelación, desbroce y preparación de terreno con maquinaria moderna y operarios con experiencia.",
-            "icon": "shovel",
-            "title": "Movimiento de tierras"
-          }
-        ],
-        "visible": true
-      },
-      {
-        "_key": "10eff1fab200468b",
-        "_type": "pergolasBlock",
-        "ctaHref": "#contact",
-        "ctaLabel": "Pedir presupuesto gratis",
-        "eyebrow": "También disponible",
-        "features": [
-          "Custom pergolas & cabanas tailored to your space and style",
-          "Sunrooms & glass sliding wall enclosures",
-          "Premium materials — wood, aluminum, and composite",
-          "Integrated lighting, curtains, and shade options",
-          "Residential & commercial installations"
-        ],
-        "headingAccent": "espacios exteriores.",
-        "headingStart": "Pérgolas, sunrooms y",
-        "image": {
-          "_type": "image",
-          "alt": "Pergola",
-          "asset": {
-            "_ref": "image-e975a8c8bc15a8172c64a0ea610429a0a0c0ebd8-1600x1067-jpg",
-            "_type": "reference"
-          }
-        },
-        "lead": "Diseñamos y construimos pérgolas y estructuras exteriores a medida que combinan estética y resistencia — ideales para patios residenciales, terrazas comerciales y todo lo que hay en medio.",
-        "visible": true
-      },
-      {
-        "_key": "53ee2f1344104ced",
-        "_type": "partnerBlock",
-        "ctaHref": "https://www.stylebyglobal.com",
-        "ctaLabel": "Visitar Style by Global",
-        "eyebrow": "Nuestros aliados",
-        "headingAccent": "Style by Global.",
-        "headingStart": "Representantes oficiales de",
-        "lead": "LNH & Partner es el representante autorizado de Style by Global — 25 años en cortinas, estores, persianas y decoración de interiores de gama alta, con sedes en Reino Unido, Holanda y Turquía, y estampación textil en Tennessee, EE. UU.",
-        "products": [
-          {
-            "_key": "3cf67953e34a4b5d",
-            "_type": "partnerProduct",
-            "description": "Tejidos opacos, translúcidos y técnicos screen en sistemas con cofre — control preciso de la luz en cualquier estancia y orientación.",
-            "image": "/assets/images/blinds-roller-screen.jpg",
-            "title": "Estores enrollables y screen"
-          },
-          {
-            "_key": "c1f23fcf79144de1",
-            "_type": "partnerProduct",
-            "description": "Visillos y cortinas por capas que tamizan la luz sin renunciar a las vistas — confección en onda perfecta, rieles ocultos y caídas de suelo a techo.",
-            "image": "/assets/images/blinds-sheers-curtains.jpg",
-            "title": "Visillos y cortinas por capas"
-          },
-          {
-            "_key": "ece2163618fa4754",
-            "_type": "partnerProduct",
-            "description": "Motores tubulares silenciosos con mando inalámbrico y control desde el móvil — programa tus estores, acciónalos por voz y olvídate de cadenas y cordones.",
-            "image": "/assets/images/blinds-motorized-smart.jpg",
-            "title": "Motorización y domótica"
-          },
-          {
-            "_key": "79524106ce0646b3",
-            "_type": "partnerProduct",
-            "description": "Equipamiento completo de cortinas para hoteles, apartamentos y promociones — especificado, fabricado e instalado a escala de proyecto.",
-            "image": "/assets/images/blinds-contract-hospitality.jpg",
-            "title": "Contract y hostelería"
-          }
-        ],
-        "visible": true
-      },
-      {
         "_key": "f517252029cf4627",
         "_type": "aboutBlock",
         "badgeLabel": "Años sumados",
@@ -194,7 +59,7 @@
           {
             "_key": "90c43fd4121c4dc1",
             "_type": "aboutHighlight",
-            "text": "Especialistas en reforma de cocinas, baños y viviendas completas"
+            "text": "Especialistas en remodelación de cocinas, baños y casas completas"
           },
           {
             "_key": "8319a061493b4784",
@@ -222,6 +87,120 @@
         "visible": true
       },
       {
+        "_key": "4a1b3a51afdb48e8",
+        "_type": "projectsBlock",
+        "eyebrow": "Nuestro trabajo",
+        "headingAccent": "destacados.",
+        "headingStart": "Proyectos",
+        "projects": [
+          {
+            "_key": "doralkitchen0001",
+            "_type": "project",
+            "category": "Remodelación · Miami",
+            "title": "Remodelación de cocina en Doral",
+            "description": "Remodelación completa de cocina en Doral, Miami — nueva distribución con isla central, gabinetes a la medida en roble y negro, electrodomésticos integrados e iluminación colgante.",
+            "image": "/assets/images/project-doral-kitchen.jpg"
+          },
+          {
+            "_key": "fa0b2c1000a841b0",
+            "_type": "project",
+            "category": "Hostelería",
+            "description": "Terraza y bar en cubierta — lonas tensadas de sombra, celosías de bambú y zona de estar exterior con vistas al mar.",
+            "image": "/assets/images/project-hotel-mara.jpg",
+            "title": "Terraza Hotel Mara"
+          },
+          {
+            "_key": "8f307b0ba51b4241",
+            "_type": "project",
+            "category": "Hostelería",
+            "description": "Suites de resort en República Dominicana — cortinas sheer en capas y blackout en todo el programa de habitaciones.",
+            "image": "/assets/images/project-punta-cana.jpg",
+            "title": "Urban Punta Cana"
+          },
+          {
+            "_key": "1b94ba869a264cbe",
+            "_type": "project",
+            "category": "Comercial",
+            "description": "Showroom de marca y oficinas en Colombia — recepción, exhibidores y salas de reunión con iluminación integrada.",
+            "image": "/assets/images/project-showroom-bogota.jpg",
+            "title": "Showroom Bogotá"
+          },
+          {
+            "_key": "65fe50bc300142b6",
+            "_type": "project",
+            "category": "Residencial",
+            "description": "Renovación de apartamento en España — vigas de madera a la vista, carpintería a la medida y equipamiento completo de cortinas.",
+            "image": "/assets/images/project-granada.jpg",
+            "title": "Apartamentos Granada"
+          },
+          {
+            "_key": "e9f8f791a1304190",
+            "_type": "project",
+            "category": "Residencial",
+            "description": "Equipamiento integral de apartamento en Tailandia — cortinas roller y sheer en todas las ventanas, con muebles a la medida.",
+            "image": "/assets/images/project-tailandia.jpg",
+            "title": "Apartamento Tailandia"
+          },
+          {
+            "_key": "8d4e1ba4f55f469b",
+            "_type": "project",
+            "category": "Ferias",
+            "description": "Stand de dos plantas para R+T Stuttgart, la feria internacional de cortinas y protección solar.",
+            "image": "/assets/images/project-rt-stuttgart.jpg",
+            "title": "R+T Stuttgart"
+          }
+        ],
+        "visible": true,
+        "lead": "Nuestro primer proyecto en Miami abre la lista. El resto es obra del grupo Style, nuestra empresa socia y una de las dos trayectorias que hay detrás de LNH & Partner."
+      },
+      {
+        "_key": "3d21ffa830ed4ab3",
+        "_type": "servicesBlock",
+        "eyebrow": "Nuestra especialidad",
+        "headingStart": "Remodelación y",
+        "headingAccent": "renovación",
+        "lead": "La remodelación de cocinas y baños es lo nuestro — también casas completas y espacios comerciales, transformados con mano de obra de calidad. Y ofrecemos apoyo integral de construcción para sacar adelante cualquier proyecto.",
+        "services": [
+          {
+            "_key": "661a5d5b124b47c5",
+            "_type": "serviceItem",
+            "badge": "Especialidad",
+            "description": "Remodelación integral de interiores y exteriores — convertimos espacios existentes en ambientes modernos, funcionales y bonitos.",
+            "icon": "hammer",
+            "title": "Remodelaciones"
+          },
+          {
+            "_key": "3024726588f24e05",
+            "_type": "serviceItem",
+            "description": "Pérgolas diseñadas y construidas a la medida para exteriores residenciales y comerciales — estructuras duraderas que revalorizan cualquier propiedad.",
+            "icon": "pergola",
+            "title": "Pérgolas"
+          },
+          {
+            "_key": "7f964a28f48549b1",
+            "_type": "serviceItem",
+            "description": "Acabados decorativos de interiores y exteriores, paisajismo, decoración exterior y detalles estéticos que transforman cualquier espacio.",
+            "icon": "sparkles",
+            "title": "Decoración y acabados"
+          },
+          {
+            "_key": "fb7c5dbd46f0454f",
+            "_type": "serviceItem",
+            "description": "Gerencia integral del proyecto, desde la planificación y los permisos hasta la entrega — a tiempo y dentro del presupuesto, siempre.",
+            "icon": "clipboard",
+            "title": "Gerencia de proyectos"
+          },
+          {
+            "_key": "82ddabb5d75e42e8",
+            "_type": "serviceItem",
+            "description": "Desarrollo, compraventa y administración de propiedades. Conectamos a nuestros clientes con la propiedad y la oportunidad de inversión adecuadas.",
+            "icon": "key",
+            "title": "Inmobiliaria"
+          }
+        ],
+        "visible": true
+      },
+      {
         "_key": "4111207b48b9417c",
         "_type": "whyBlock",
         "eyebrow": "Por qué LNH & Partner",
@@ -232,7 +211,7 @@
           {
             "_key": "a3bd89d723f14223",
             "_type": "whyPoint",
-            "description": "Décadas de experiencia a pie de obra en construcción, movimiento de tierras, infraestructura e inmobiliaria.",
+            "description": "Décadas de experiencia a pie de obra en construcción, movimiento de tierras, infraestructura y bienes raíces.",
             "title": "Experiencia"
           },
           {
@@ -263,71 +242,71 @@
         "visible": true
       },
       {
-        "_key": "4a1b3a51afdb48e8",
-        "_type": "projectsBlock",
-        "eyebrow": "Nuestro trabajo",
-        "headingAccent": "destacados.",
-        "headingStart": "Proyectos",
-        "projects": [
+        "_key": "10eff1fab200468b",
+        "_type": "pergolasBlock",
+        "ctaHref": "#contact",
+        "ctaLabel": "Pedir cotización",
+        "eyebrow": "También disponible",
+        "features": [
+          "Pérgolas y cabañas a la medida, adaptadas a tu espacio y estilo",
+          "Aluminio, madera dura y configuraciones motorizadas",
+          "Diseñadas para el viento y el sol del sur de Florida",
+          "Sunrooms y cerramientos de vidrio corredizo",
+          "Instalación completa por nuestro propio equipo"
+        ],
+        "headingAccent": "espacios exteriores.",
+        "headingStart": "Pérgolas, sunrooms y",
+        "image": {
+          "_type": "image",
+          "alt": "Pergola",
+          "asset": {
+            "_ref": "image-e975a8c8bc15a8172c64a0ea610429a0a0c0ebd8-1600x1067-jpg",
+            "_type": "reference"
+          }
+        },
+        "lead": "Diseñamos y construimos pérgolas y estructuras exteriores a la medida que combinan estética y resistencia — ideales para patios residenciales, terrazas comerciales y todo lo que hay en medio.",
+        "visible": true
+      },
+      {
+        "_key": "53ee2f1344104ced",
+        "_type": "partnerBlock",
+        "ctaHref": "https://www.stylebyglobal.com",
+        "ctaLabel": "Visitar Style by Global",
+        "eyebrow": "Nuestros aliados",
+        "headingAccent": "Style by Global.",
+        "headingStart": "Representantes oficiales de",
+        "lead": "LNH & Partner es el representante autorizado de Style by Global — 25 años en cortinas, persianas y decoración de interiores de alta gama, con sedes en Reino Unido, Holanda y Turquía, y estampación textil en Tennessee, EE. UU.",
+        "products": [
           {
-            "_key": "doralkitchen0001",
-            "_type": "project",
-            "category": "Reforma · Miami",
-            "title": "Reforma de cocina en Doral",
-            "description": "Remodelación completa de cocina en Doral, Miami — nueva distribución con isla central, mobiliario a medida en roble y negro, electrodomésticos integrados e iluminación colgante.",
-            "image": "/assets/images/project-doral-kitchen.jpg"
+            "_key": "3cf67953e34a4b5d",
+            "_type": "partnerProduct",
+            "description": "Telas blackout, translúcidas y screen técnico en sistemas con cassette — control preciso de la luz en cualquier ambiente y orientación.",
+            "image": "/assets/images/blinds-roller-screen.jpg",
+            "title": "Cortinas roller y screen"
           },
           {
-            "_key": "fa0b2c1000a841b0",
-            "_type": "project",
-            "category": "Hostelería",
-            "description": "Terraza y bar en cubierta — lonas tensadas de sombra, celosías de bambú y zona de estar exterior con vistas al mar.",
-            "image": "/assets/images/project-hotel-mara.jpg",
-            "title": "Terraza Hotel Mara"
+            "_key": "c1f23fcf79144de1",
+            "_type": "partnerProduct",
+            "description": "Cortinas sheer y en capas que filtran la luz sin taparte la vista — confección en ondas, rieles ocultos y caídas de piso a techo.",
+            "image": "/assets/images/blinds-sheers-curtains.jpg",
+            "title": "Cortinas sheer y en capas"
           },
           {
-            "_key": "8f307b0ba51b4241",
-            "_type": "project",
-            "category": "Hostelería",
-            "description": "Suites de resort en República Dominicana — visillos por capas y cortinas opacas en todo el programa de habitaciones.",
-            "image": "/assets/images/project-punta-cana.jpg",
-            "title": "Urban Punta Cana"
+            "_key": "ece2163618fa4754",
+            "_type": "partnerProduct",
+            "description": "Motores tubulares silenciosos con control remoto y manejo desde el celular — programa tus cortinas, actívalas por voz y olvídate de cadenas y cordones.",
+            "image": "/assets/images/blinds-motorized-smart.jpg",
+            "title": "Motorización y domótica"
           },
           {
-            "_key": "1b94ba869a264cbe",
-            "_type": "project",
-            "category": "Comercial",
-            "description": "Showroom de marca y oficinas en Colombia — recepción, expositores y salas de reunión con iluminación integrada.",
-            "image": "/assets/images/project-showroom-bogota.jpg",
-            "title": "Showroom Bogotá"
-          },
-          {
-            "_key": "65fe50bc300142b6",
-            "_type": "project",
-            "category": "Residencial",
-            "description": "Reforma de apartamento en España — vigas de madera vistas, carpintería a medida y equipamiento completo de cortinas.",
-            "image": "/assets/images/project-granada.jpg",
-            "title": "Apartamentos Granada"
-          },
-          {
-            "_key": "e9f8f791a1304190",
-            "_type": "project",
-            "category": "Residencial",
-            "description": "Equipamiento integral de apartamento en Tailandia — estores enrollables y visillos en todos los huecos, con mobiliario a medida.",
-            "image": "/assets/images/project-tailandia.jpg",
-            "title": "Apartamento Tailandia"
-          },
-          {
-            "_key": "8d4e1ba4f55f469b",
-            "_type": "project",
-            "category": "Ferias",
-            "description": "Stand de dos plantas para R+T Stuttgart, la feria internacional de cortinas y protección solar.",
-            "image": "/assets/images/project-rt-stuttgart.jpg",
-            "title": "R+T Stuttgart"
+            "_key": "79524106ce0646b3",
+            "_type": "partnerProduct",
+            "description": "Equipamiento completo de cortinas para hoteles, apartamentos y desarrollos — especificado, fabricado e instalado a escala de proyecto.",
+            "image": "/assets/images/blinds-contract-hospitality.jpg",
+            "title": "Contract y hostelería"
           }
         ],
-        "visible": true,
-        "lead": "Nuestro primer proyecto en Miami abre la lista. El resto es obra del grupo Style, nuestra empresa socia y una de las dos trayectorias que hay detrás de LNH & Partner."
+        "visible": true
       },
       {
         "_key": "f5c7c747e5fe41fa",
@@ -382,7 +361,7 @@
         "eyebrow": "El equipo",
         "headingAccent": "cada proyecto.",
         "headingStart": "Las personas detrás de",
-        "lead": "Nuestro equipo directivo aporta décadas de experiencia combinada en construcción, ingeniería e inmobiliaria a cada proyecto que asumimos.",
+        "lead": "Nuestro equipo directivo aporta décadas de experiencia combinada en construcción, ingeniería y bienes raíces a cada proyecto que asumimos.",
         "members": [
           {
             "_key": "d3ab28db8c894bc9",
@@ -402,7 +381,7 @@
           {
             "_key": "41127bce6adc42ef",
             "_type": "teamMember",
-            "bio": "Agente inmobiliaria colegiada, especializada en compraventa e inversión residencial y comercial. Dedicada a conectar a cada cliente con la propiedad y la oportunidad adecuadas.",
+            "bio": "Agente de bienes raíces con licencia, especializada en compraventa e inversión residencial y comercial. Dedicada a conectar a cada cliente con la propiedad y la oportunidad adecuadas.",
             "image": {
               "_type": "image",
               "alt": "Nilyan Herrera",
@@ -412,7 +391,7 @@
               }
             },
             "name": "Nilyan Herrera",
-            "role": "Agente Inmobiliaria Colegiada y Directora Inmobiliaria",
+            "role": "Agente de Bienes Raíces y Directora Inmobiliaria",
             "license": "Licencia inmobiliaria de Florida n.º SL3560312",
             "website": "https://www.nilyanherrera.com",
             "websiteLabel": "nilyanherrera.com"
@@ -471,7 +450,7 @@
     "_type": "siteConfig",
     "_updatedAt": "2026-04-17T23:27:32Z",
     "address": "Miami, Florida, EE. UU.",
-    "description": "LNH & Partner — especialistas en reformas y remodelación en Miami. Cocinas, baños, viviendas completas y espacios comerciales, con apoyo integral de construcción.",
+    "description": "LNH & Partner — contratistas de remodelación en Miami. Remodelación de cocinas y baños, casas completas y espacios comerciales, con apoyo integral de construcción.",
     "email": "info@lnhpartner.com",
     "emailHref": "mailto:info@lnhpartner.com",
     "name": "LNH & Partner",
@@ -511,7 +490,7 @@
     "partnerUrl": "https://www.stylebyglobal.com",
     "phone": "+1 786 658 0795",
     "phoneHref": "tel:+17866580795",
-    "tagline": "Especialistas en Reformas y Remodelación",
+    "tagline": "Especialistas en Remodelación de Cocinas y Baños",
     "url": "https://www.lnhpartner.com/es",
     "whatsappHref": "https://wa.me/17866580795?text=Hola%20LNH%20%26%20Partner%2C%20me%20gustar%C3%ADa%20pedir%20un%20presupuesto."
   }

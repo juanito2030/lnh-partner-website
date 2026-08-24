@@ -28,6 +28,13 @@ const t = {
   phName: es ? 'Ana Ruiz' : 'Jane Doe',
   phEmail: es ? 'ana@correo.com' : 'jane@email.com',
   phMsg: es ? 'Cuéntanos un poco sobre tu proyecto…' : 'Tell us a bit about your project…',
+  waGreet: es ? 'Hola LNH & Partner, soy' : "Hi LNH & Partner, I'm",
+  waService: es ? 'Servicio' : 'Service',
+  waPhone: es ? 'Teléfono' : 'Phone',
+  waEmail: es ? 'Correo' : 'Email',
+  fallback: es
+    ? '¿No se abrió WhatsApp? Escríbenos a'
+    : "Didn't WhatsApp open? Email us at",
 };
 
 const whatsappHref =
@@ -142,6 +149,10 @@ const formspreeId =
       id="contact-form"
       class="reveal rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur-sm md:p-10"
       data-wa-number={whatsappNumber}
+      data-wa-greet={t.waGreet}
+      data-wa-service={t.waService}
+      data-wa-phone={t.waPhone}
+      data-wa-email={t.waEmail}
       data-formspree-id={formspreeId}
       novalidate
     >
@@ -159,7 +170,7 @@ const formspreeId =
             placeholder={t.phEmail} />
         </label>
         <label class="block">
-          <span class="text-xs font-semibold uppercase tracking-[0.15em] text-white/60">Phone</span>
+          <span class="text-xs font-semibold uppercase tracking-[0.15em] text-white/60">{t.phoneLabel}</span>
           <input type="tel" name="phone"
             class="mt-2 w-full rounded-md border border-white/15 bg-white/5 px-4 py-3 text-white placeholder-white/30 outline-none ring-gold-400 transition focus:border-gold-400 focus:ring-2"
             placeholder={siteConfig?.phone || ''} />
@@ -189,6 +200,12 @@ const formspreeId =
         {t.send}
       </button>
 
+      <p id="contact-fallback" class="mt-3 hidden text-center text-xs text-white/60">
+        {t.fallback}{' '}
+        <a href={siteConfig?.emailHref || `mailto:${siteConfig?.email}`} class="font-semibold text-gold-300 underline underline-offset-2">
+          {siteConfig?.email}
+        </a>
+      </p>
       <p id="contact-feedback" class="mt-4 text-center text-xs text-white/40">
         {t.note}
       </p>
@@ -226,10 +243,11 @@ const formspreeId =
       const service = value('service');
       const message = value('message');
 
-      const lines = [`Hi LNH & Partner, I'm ${name}.`];
-      if (service) lines.push(`Service: ${service}`);
-      if (phone) lines.push(`Phone: ${phone}`);
-      if (email) lines.push(`Email: ${email}`);
+      const d = form.dataset;
+      const lines = [`${d.waGreet || "Hi LNH & Partner, I'm"} ${name}.`];
+      if (service) lines.push(`${d.waService || 'Service'}: ${service}`);
+      if (phone) lines.push(`${d.waPhone || 'Phone'}: ${phone}`);
+      if (email) lines.push(`${d.waEmail || 'Email'}: ${email}`);
       if (message) lines.push('', message);
 
       const number = form.dataset.waNumber || '17866580795';
@@ -248,6 +266,7 @@ const formspreeId =
         }).catch(() => {});
       }
 
+      document.getElementById('contact-fallback')?.classList.remove('hidden');
       feedback.textContent = 'Opening WhatsApp with your message ready to send…';
       feedback.classList.remove('text-white/40', 'text-red-400');
       feedback.classList.add('text-gold-400');
