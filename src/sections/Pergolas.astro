@@ -23,10 +23,13 @@ const imgUrl = block?.image ? imageSrc(block.image, 1400) : '';
 
     <div class="mt-14 grid gap-8 lg:grid-cols-2 reveal">
       <div class="group relative overflow-hidden rounded-2xl bg-navy-950 shadow-card">
-        <div class="relative aspect-video w-full">
+        <!-- The two clips arrive at different native ratios (1:1 and 16:9).
+             Both frames are 4:3 so the cards line up, which crops each a
+             little rather than cropping one a lot. -->
+        <div class="relative aspect-[4/3] w-full">
           <video
             class="h-full w-full object-cover"
-            poster={imgUrl}
+            poster="/assets/images/poster-pergola.jpg"
             controls
             preload="none"
             playsinline
@@ -45,10 +48,10 @@ const imgUrl = block?.image ? imageSrc(block.image, 1400) : '';
       </div>
 
       <div class="group relative overflow-hidden rounded-2xl bg-navy-950 shadow-card">
-        <div class="relative aspect-video w-full">
+        <div class="relative aspect-[4/3] w-full">
           <video
             class="h-full w-full object-cover"
-            poster="https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1400&q=80"
+            poster="/assets/images/poster-sunroom.jpg"
             controls
             preload="none"
             playsinline

@@ -16,32 +16,32 @@
             "_type": "reference"
           }
         },
-        "eyebrow": "Renovation & Remodeling Specialists",
-        "headingStart": "We",
-        "headingAccent": "remodel",
-        "headingEnd": "your space",
-        "lead": "From kitchens and bathrooms to full home and commercial transformations — LNH & Partner brings your remodeling vision to life with quality craftsmanship and attention to detail.",
+        "eyebrow": "Especialistas en Reformas y Remodelación",
+        "headingStart": "Reformamos",
+        "headingAccent": "tu espacio",
+        "headingEnd": "a tu medida",
+        "lead": "Desde cocinas y baños hasta viviendas completas y espacios comerciales — LNH & Partner convierte tu proyecto en realidad con mano de obra de calidad y atención al detalle.",
         "primaryCtaHref": "#services",
-        "primaryCtaLabel": "Our renovation services",
+        "primaryCtaLabel": "Ver nuestros servicios",
         "secondaryCtaHref": "#contact",
-        "secondaryCtaLabel": "Get a free quote",
+        "secondaryCtaLabel": "Pedir presupuesto gratis",
         "stats": [
           {
             "_key": "18f8b0d27ed44219",
             "_type": "statItem",
-            "label": "Years · Style, Europe",
+            "label": "Años · Style, Europa",
             "value": "25"
           },
           {
             "_key": "7d877a3adf88470c",
             "_type": "statItem",
-            "label": "Years · Engineering, Venezuela",
+            "label": "Años · Ingeniería, Venezuela",
             "value": "25+"
           },
           {
             "_key": "992609c8500e4451",
             "_type": "statItem",
-            "label": "Specialties in-house",
+            "label": "Especialidades propias",
             "value": "8"
           }
         ],
@@ -50,67 +50,67 @@
       {
         "_key": "3d21ffa830ed4ab3",
         "_type": "servicesBlock",
-        "eyebrow": "Our Specialty",
-        "headingStart": "Renovations &",
-        "headingAccent": "remodeling",
-        "lead": "Remodeling is where we excel — kitchens, bathrooms, full homes, and commercial spaces transformed with quality craftsmanship. We also offer complete construction support to bring any project to life.",
+        "eyebrow": "Nuestra especialidad",
+        "headingStart": "Reformas y",
+        "headingAccent": "remodelación",
+        "lead": "La remodelación es lo nuestro — cocinas, baños, viviendas completas y espacios comerciales transformados con mano de obra de calidad. También ofrecemos apoyo integral de construcción para sacar adelante cualquier proyecto.",
         "services": [
           {
             "_key": "661a5d5b124b47c5",
             "_type": "serviceItem",
             "badge": "Specialty",
-            "description": "Full-scale interior and exterior renovation work — transforming existing spaces into modern, functional, and beautiful environments.",
+            "description": "Reformas integrales de interior y exterior — convertimos espacios existentes en ambientes modernos, funcionales y bonitos.",
             "icon": "hammer",
-            "title": "Renovations"
+            "title": "Reformas"
           },
           {
             "_key": "3024726588f24e05",
             "_type": "serviceItem",
-            "description": "Custom-designed and built pergolas for residential and commercial outdoor spaces — beautiful, durable structures crafted to enhance any property.",
+            "description": "Pérgolas diseñadas y construidas a medida para exteriores residenciales y comerciales — estructuras duraderas que revalorizan cualquier propiedad.",
             "icon": "pergola",
-            "title": "Pergolas"
+            "title": "Pérgolas"
           },
           {
             "_key": "7f964a28f48549b1",
             "_type": "serviceItem",
-            "description": "Interior and exterior decorative finishes, landscaping, outdoor décor, and aesthetic detailing that transform spaces into stunning environments.",
+            "description": "Acabados decorativos de interior y exterior, paisajismo, decoración exterior y detalles estéticos que transforman cualquier espacio.",
             "icon": "sparkles",
-            "title": "Decorations & Finishing"
+            "title": "Decoración y acabados"
           },
           {
             "_key": "fb7c5dbd46f0454f",
             "_type": "serviceItem",
-            "description": "End-to-end project management from planning and permitting through completion — on time, on budget, every time.",
+            "description": "Gestión integral del proyecto, desde la planificación y los permisos hasta la entrega — en plazo y dentro del presupuesto, siempre.",
             "icon": "clipboard",
-            "title": "Project Management"
+            "title": "Gestión de proyectos"
           },
           {
             "_key": "82ddabb5d75e42e8",
             "_type": "serviceItem",
-            "description": "Property development, acquisition, sales, and management. We connect clients with the right properties and investment opportunities.",
+            "description": "Promoción, compraventa y gestión de inmuebles. Conectamos a nuestros clientes con la propiedad y la oportunidad de inversión adecuadas.",
             "icon": "key",
-            "title": "Real Estate"
+            "title": "Inmobiliaria"
           },
           {
             "_key": "d65e473f2a3a466c",
             "_type": "serviceItem",
-            "description": "Residential, commercial, and industrial construction projects built to the highest standards of quality, safety, and durability.",
+            "description": "Obra residencial, comercial e industrial ejecutada con los máximos estándares de calidad, seguridad y durabilidad.",
             "icon": "building",
-            "title": "Building Construction"
+            "title": "Construcción"
           },
           {
             "_key": "adceedb746534445",
             "_type": "serviceItem",
-            "description": "Roads, utilities, bridges, drainage systems, and public works infrastructure — engineered for longevity and performance.",
+            "description": "Viales, servicios, puentes, drenajes e infraestructura de obra pública — diseñados para durar y rendir.",
             "icon": "road",
-            "title": "Infrastructure"
+            "title": "Infraestructura"
           },
           {
             "_key": "2390e39bce774bf9",
             "_type": "serviceItem",
-            "description": "Excavation, grading, land clearing, and site preparation with modern machinery and experienced operators.",
+            "description": "Excavación, nivelación, desbroce y preparación de terreno con maquinaria moderna y operarios con experiencia.",
             "icon": "shovel",
-            "title": "Earthworks"
+            "title": "Movimiento de tierras"
           }
         ],
         "visible": true
@@ -119,8 +119,8 @@
         "_key": "10eff1fab200468b",
         "_type": "pergolasBlock",
         "ctaHref": "#contact",
-        "ctaLabel": "Get a free quote",
-        "eyebrow": "Also Available",
+        "ctaLabel": "Pedir presupuesto gratis",
+        "eyebrow": "También disponible",
         "features": [
           "Custom pergolas & cabanas tailored to your space and style",
           "Sunrooms & glass sliding wall enclosures",
@@ -128,8 +128,8 @@
           "Integrated lighting, curtains, and shade options",
           "Residential & commercial installations"
         ],
-        "headingAccent": "outdoor spaces.",
-        "headingStart": "Pergolas, sunrooms &",
+        "headingAccent": "espacios exteriores.",
+        "headingStart": "Pérgolas, sunrooms y",
         "image": {
           "_type": "image",
           "alt": "Pergola",
@@ -138,46 +138,46 @@
             "_type": "reference"
           }
         },
-        "lead": "We design and build custom pergolas and outdoor structures that blend beauty with durability — perfect for residential patios, commercial terraces, and everything in between.",
+        "lead": "Diseñamos y construimos pérgolas y estructuras exteriores a medida que combinan estética y resistencia — ideales para patios residenciales, terrazas comerciales y todo lo que hay en medio.",
         "visible": true
       },
       {
         "_key": "53ee2f1344104ced",
         "_type": "partnerBlock",
         "ctaHref": "https://www.stylebyglobal.com",
-        "ctaLabel": "Visit Style by Global",
-        "eyebrow": "Our Partners",
+        "ctaLabel": "Visitar Style by Global",
+        "eyebrow": "Nuestros aliados",
         "headingAccent": "Style by Global.",
-        "headingStart": "Proud representatives of",
-        "lead": "LNH & Partner is the authorized representative of Style by Global — 25 years in premium window coverings, blinds, shutters and interior decoration, with operations in the United Kingdom, the Netherlands and Turkey, and textile printing in Tennessee, USA.",
+        "headingStart": "Representantes oficiales de",
+        "lead": "LNH & Partner es el representante autorizado de Style by Global — 25 años en cortinas, estores, persianas y decoración de interiores de gama alta, con sedes en Reino Unido, Holanda y Turquía, y estampación textil en Tennessee, EE. UU.",
         "products": [
           {
             "_key": "3cf67953e34a4b5d",
             "_type": "partnerProduct",
-            "description": "Blackout, light-filtering and technical screen fabrics in cassetted systems — precise light control for any room or orientation.",
+            "description": "Tejidos opacos, translúcidos y técnicos screen en sistemas con cofre — control preciso de la luz en cualquier estancia y orientación.",
             "image": "/assets/images/blinds-roller-screen.jpg",
-            "title": "Roller & Screen Blinds"
+            "title": "Estores enrollables y screen"
           },
           {
             "_key": "c1f23fcf79144de1",
             "_type": "partnerProduct",
-            "description": "Sheer and layered drapery that softens daylight without closing off the view — wave headings, concealed tracks and floor-to-ceiling runs.",
+            "description": "Visillos y cortinas por capas que tamizan la luz sin renunciar a las vistas — confección en onda perfecta, rieles ocultos y caídas de suelo a techo.",
             "image": "/assets/images/blinds-sheers-curtains.jpg",
-            "title": "Sheers & Layered Curtains"
+            "title": "Visillos y cortinas por capas"
           },
           {
             "_key": "ece2163618fa4754",
             "_type": "partnerProduct",
-            "description": "Silent tubular motors with wireless remote and app control — schedule your blinds, run them by voice, and lose the cords and chains entirely.",
+            "description": "Motores tubulares silenciosos con mando inalámbrico y control desde el móvil — programa tus estores, acciónalos por voz y olvídate de cadenas y cordones.",
             "image": "/assets/images/blinds-motorized-smart.jpg",
-            "title": "Motorized & Smart Blinds"
+            "title": "Motorización y domótica"
           },
           {
             "_key": "79524106ce0646b3",
             "_type": "partnerProduct",
-            "description": "Complete window-covering packages for hotels, apartments and developments — specified, manufactured and installed at project scale.",
+            "description": "Equipamiento completo de cortinas para hoteles, apartamentos y promociones — especificado, fabricado e instalado a escala de proyecto.",
             "image": "/assets/images/blinds-contract-hospitality.jpg",
-            "title": "Contract & Hospitality"
+            "title": "Contract y hostelería"
           }
         ],
         "visible": true
@@ -185,79 +185,79 @@
       {
         "_key": "f517252029cf4627",
         "_type": "aboutBlock",
-        "badgeLabel": "Combined years",
+        "badgeLabel": "Años sumados",
         "badgeValue": "50+",
-        "eyebrow": "About Us",
-        "headingAccent": "Not new to this.",
-        "headingStart": "New in Miami.",
+        "eyebrow": "Quiénes somos",
+        "headingAccent": "No en esto.",
+        "headingStart": "Nuevos en Miami.",
         "highlights": [
           {
             "_key": "90c43fd4121c4dc1",
             "_type": "aboutHighlight",
-            "text": "Specialists in kitchen, bathroom & full home remodeling"
+            "text": "Especialistas en reforma de cocinas, baños y viviendas completas"
           },
           {
             "_key": "8319a061493b4784",
             "_type": "aboutHighlight",
-            "text": "Engineering-led project management from first drawing to final handover"
+            "text": "Dirección de obra con criterio de ingeniería, del primer plano a la entrega final"
           },
           {
             "_key": "ef0ad8892aa3442f",
             "_type": "aboutHighlight",
-            "text": "In-house design and project management teams"
+            "text": "Equipos propios de diseño y gestión de proyecto"
           },
           {
             "_key": "b167124f68cd4706",
             "_type": "aboutHighlight",
-            "text": "Transparent communication from estimate to completion"
+            "text": "Comunicación transparente desde el presupuesto hasta la entrega"
           },
           {
             "_key": "c2f8a1d4e5b60705",
             "_type": "aboutHighlight",
-            "text": "Committed to quality craftsmanship and lasting results"
+            "text": "Compromiso con el buen oficio y con resultados que duran"
           }
         ],
         "image": "/assets/images/about-remodel.webp",
-        "lead": "LNH & Partner is a young Miami company built on two long track records. Style, our European group, has spent 25 years in premium interiors and window coverings. Luis Herrera brings 25+ years of civil engineering and large-scale development from Venezuela. That experience is what we brought to South Florida — the company here is new, the trade is not.",
+        "lead": "LNH & Partner es una empresa joven en Miami levantada sobre dos trayectorias largas. Style, nuestro grupo europeo, lleva 25 años en interiorismo y cortinas de gama alta. Luis Herrera aporta más de 25 años de ingeniería civil y grandes promociones en Venezuela. Esa experiencia es la que trajimos al sur de Florida: la empresa de aquí es nueva, el oficio no.",
         "visible": true
       },
       {
         "_key": "4111207b48b9417c",
         "_type": "whyBlock",
-        "eyebrow": "Why LNH & Partner",
-        "headingAccent": "difference.",
-        "headingStart": "The LNH",
-        "lead": "What sets us apart is not just what we build, but how we build it — with integrity, precision, and a relentless commitment to excellence.",
+        "eyebrow": "Por qué LNH & Partner",
+        "headingAccent": "LNH.",
+        "headingStart": "La diferencia",
+        "lead": "Lo que nos distingue no es solo lo que construimos, sino cómo lo construimos — con integridad, precisión y una exigencia que no baja nunca.",
         "points": [
           {
             "_key": "a3bd89d723f14223",
             "_type": "whyPoint",
-            "description": "Decades of hands-on experience across construction, earthworks, infrastructure, and real estate sectors.",
-            "title": "Expertise"
+            "description": "Décadas de experiencia a pie de obra en construcción, movimiento de tierras, infraestructura e inmobiliaria.",
+            "title": "Experiencia"
           },
           {
             "_key": "8c4acd83e46c4c75",
             "_type": "whyPoint",
-            "description": "We honor our commitments. Deadlines and budgets are respected — always. No surprises, no excuses.",
-            "title": "Reliability"
+            "description": "Cumplimos lo que prometemos. Los plazos y los presupuestos se respetan — siempre. Sin sorpresas ni excusas.",
+            "title": "Fiabilidad"
           },
           {
             "_key": "d931684cb0fd49f7",
             "_type": "whyPoint",
-            "description": "We embrace modern techniques, materials, and technologies to deliver superior outcomes efficiently.",
-            "title": "Innovation"
+            "description": "Aplicamos técnicas, materiales y tecnología actuales para lograr mejores resultados con más eficiencia.",
+            "title": "Innovación"
           },
           {
             "_key": "a0dad7b0254a4e6d",
             "_type": "whyPoint",
-            "description": "Rigorous safety protocols across every site. Zero-compromise approach to protecting our people and clients.",
-            "title": "Safety First"
+            "description": "Protocolos de seguridad rigurosos en cada obra. Cero concesiones a la hora de proteger a nuestro equipo y a nuestros clientes.",
+            "title": "Seguridad ante todo"
           },
           {
             "_key": "eaddeebe65994b58",
             "_type": "whyPoint",
-            "description": "Honest pricing, transparent processes, and clear communication build trust that lasts beyond the project.",
-            "title": "Integrity"
+            "description": "Precios honestos, procesos transparentes y comunicación clara. Así se construye una confianza que dura más que la obra.",
+            "title": "Integridad"
           }
         ],
         "visible": true
@@ -265,76 +265,76 @@
       {
         "_key": "4a1b3a51afdb48e8",
         "_type": "projectsBlock",
-        "eyebrow": "Our Work",
-        "headingAccent": "projects.",
-        "headingStart": "Featured",
+        "eyebrow": "Nuestro trabajo",
+        "headingAccent": "destacados.",
+        "headingStart": "Proyectos",
         "projects": [
           {
             "_key": "doralkitchen0001",
             "_type": "project",
-            "category": "Renovation · Miami",
-            "title": "Doral Kitchen Remodel",
-            "description": "Complete kitchen remodel in Doral, Miami — new layout with a central island, custom oak and black cabinetry, integrated appliances and pendant lighting.",
+            "category": "Reforma · Miami",
+            "title": "Reforma de cocina en Doral",
+            "description": "Remodelación completa de cocina en Doral, Miami — nueva distribución con isla central, mobiliario a medida en roble y negro, electrodomésticos integrados e iluminación colgante.",
             "image": "/assets/images/project-doral-kitchen.jpg"
           },
           {
             "_key": "fa0b2c1000a841b0",
             "_type": "project",
-            "category": "Hospitality",
-            "description": "Rooftop terrace and bar — tensioned shade canopies, bamboo screening and all-day outdoor seating overlooking the sea.",
+            "category": "Hostelería",
+            "description": "Terraza y bar en cubierta — lonas tensadas de sombra, celosías de bambú y zona de estar exterior con vistas al mar.",
             "image": "/assets/images/project-hotel-mara.jpg",
             "title": "Terraza Hotel Mara"
           },
           {
             "_key": "8f307b0ba51b4241",
             "_type": "project",
-            "category": "Hospitality",
-            "description": "Resort suites in the Dominican Republic — layered sheers and blackout drapery specified across the full room programme.",
+            "category": "Hostelería",
+            "description": "Suites de resort en República Dominicana — visillos por capas y cortinas opacas en todo el programa de habitaciones.",
             "image": "/assets/images/project-punta-cana.jpg",
             "title": "Urban Punta Cana"
           },
           {
             "_key": "1b94ba869a264cbe",
             "_type": "project",
-            "category": "Commercial",
-            "description": "Brand showroom and offices in Colombia — reception, display bays and meeting areas with integrated lighting.",
+            "category": "Comercial",
+            "description": "Showroom de marca y oficinas en Colombia — recepción, expositores y salas de reunión con iluminación integrada.",
             "image": "/assets/images/project-showroom-bogota.jpg",
             "title": "Showroom Bogotá"
           },
           {
             "_key": "65fe50bc300142b6",
             "_type": "project",
-            "category": "Residential",
-            "description": "Apartment refurbishment in Spain — exposed timber beams, custom joinery and a complete window-covering package.",
+            "category": "Residencial",
+            "description": "Reforma de apartamento en España — vigas de madera vistas, carpintería a medida y equipamiento completo de cortinas.",
             "image": "/assets/images/project-granada.jpg",
             "title": "Apartamentos Granada"
           },
           {
             "_key": "e9f8f791a1304190",
             "_type": "project",
-            "category": "Residential",
-            "description": "Full apartment fit-out in Thailand — roller blinds and sheer curtains on every opening, with bespoke cabinetry throughout.",
+            "category": "Residencial",
+            "description": "Equipamiento integral de apartamento en Tailandia — estores enrollables y visillos en todos los huecos, con mobiliario a medida.",
             "image": "/assets/images/project-tailandia.jpg",
             "title": "Apartamento Tailandia"
           },
           {
             "_key": "8d4e1ba4f55f469b",
             "_type": "project",
-            "category": "Exhibition",
-            "description": "Two-storey exhibition stand for R+T Stuttgart, the international trade fair for window coverings and sun protection.",
+            "category": "Ferias",
+            "description": "Stand de dos plantas para R+T Stuttgart, la feria internacional de cortinas y protección solar.",
             "image": "/assets/images/project-rt-stuttgart.jpg",
             "title": "R+T Stuttgart"
           }
         ],
         "visible": true,
-        "lead": "Our first Miami project leads the list. The rest is work delivered by Style Group, our partner company and one of the two track records behind LNH & Partner."
+        "lead": "Nuestro primer proyecto en Miami abre la lista. El resto es obra del grupo Style, nuestra empresa socia y una de las dos trayectorias que hay detrás de LNH & Partner."
       },
       {
         "_key": "f5c7c747e5fe41fa",
         "_type": "galleryBlock",
-        "eyebrow": "Photo Gallery",
-        "headingAccent": "in action.",
-        "headingStart": "Our work",
+        "eyebrow": "Galería",
+        "headingAccent": "en acción.",
+        "headingStart": "Nuestro trabajo",
         "images": [
           {
             "_key": "48a3720a98a74f88",
@@ -373,21 +373,21 @@
             "image": "/assets/images/365eebcc2254f9ee8bc0dee8a34139e6a8889ed1-1200x675.jpg"
           }
         ],
-        "lead": "A visual showcase of our projects, team, and the quality of craftsmanship we bring to every site.",
+        "lead": "Un recorrido visual por nuestros proyectos, nuestro equipo y la calidad de ejecución que llevamos a cada obra.",
         "visible": false
       },
       {
         "_key": "293c9f6340dd427d",
         "_type": "teamBlock",
-        "eyebrow": "Meet the Team",
-        "headingAccent": "every project.",
-        "headingStart": "The people behind",
-        "lead": "Our leadership team brings decades of combined experience in construction, engineering, and real estate to every project we undertake.",
+        "eyebrow": "El equipo",
+        "headingAccent": "cada proyecto.",
+        "headingStart": "Las personas detrás de",
+        "lead": "Nuestro equipo directivo aporta décadas de experiencia combinada en construcción, ingeniería e inmobiliaria a cada proyecto que asumimos.",
         "members": [
           {
             "_key": "d3ab28db8c894bc9",
             "_type": "teamMember",
-            "bio": "Civil Engineer graduated from Universidad Santa María. Founder of LOH Ingeniería C.A. with extensive experience in construction management, infrastructure, and large-scale development projects.",
+            "bio": "Ingeniero Civil por la Universidad Santa María. Fundador de LOH Ingeniería C.A., con amplia experiencia en dirección de obra, infraestructura y grandes promociones.",
             "image": {
               "_type": "image",
               "alt": "Luis Orangel Herrera Gómez",
@@ -397,12 +397,12 @@
               }
             },
             "name": "Luis Orangel Herrera Gómez",
-            "role": "Founder & CEO — Civil Engineer"
+            "role": "Fundador y CEO — Ingeniero Civil"
           },
           {
             "_key": "41127bce6adc42ef",
             "_type": "teamMember",
-            "bio": "Licensed real estate professional specializing in residential and commercial property acquisition, sales, and investment. Dedicated to connecting clients with the right properties and opportunities.",
+            "bio": "Agente inmobiliaria colegiada, especializada en compraventa e inversión residencial y comercial. Dedicada a conectar a cada cliente con la propiedad y la oportunidad adecuadas.",
             "image": {
               "_type": "image",
               "alt": "Nilyan Herrera",
@@ -412,8 +412,8 @@
               }
             },
             "name": "Nilyan Herrera",
-            "role": "Licensed Realtor & Real Estate Director",
-            "license": "Florida Real Estate License #SL3560312",
+            "role": "Agente Inmobiliaria Colegiada y Directora Inmobiliaria",
+            "license": "Licencia inmobiliaria de Florida n.º SL3560312",
             "website": "https://www.nilyanherrera.com",
             "websiteLabel": "nilyanherrera.com"
           }
@@ -423,9 +423,9 @@
       {
         "_key": "7b37d7d5944f4167",
         "_type": "testimonialsBlock",
-        "eyebrow": "Client Reviews",
-        "headingAccent": "clients say.",
-        "headingStart": "What our",
+        "eyebrow": "Opiniones de clientes",
+        "headingAccent": "nuestros clientes.",
+        "headingStart": "Lo que dicen",
         "items": [
           {
             "_key": "aeafefef6cfc4bf9",
@@ -454,15 +454,15 @@
       {
         "_key": "fb3d89d61dda42a5",
         "_type": "contactBlock",
-        "eyebrow": "Get In Touch",
+        "eyebrow": "Contacto",
         "formspreeId": "your-form-id",
-        "headingAccent": "your project.",
-        "headingStart": "Let's start",
-        "lead": "Tell us about your project and our team will get back to you within 24 hours with a detailed consultation and proposal.",
+        "headingAccent": "tu proyecto.",
+        "headingStart": "Empecemos",
+        "lead": "Cuéntanos tu proyecto y nuestro equipo te responderá en menos de 24 horas con una propuesta detallada.",
         "visible": true
       }
     ],
-    "title": "Home"
+    "title": "Inicio"
   },
   "siteConfig": {
     "_createdAt": "2026-04-17T23:27:32Z",
@@ -470,8 +470,8 @@
     "_rev": "Azr6jnPnblfJFZmxpZl1L2",
     "_type": "siteConfig",
     "_updatedAt": "2026-04-17T23:27:32Z",
-    "address": "Miami, Florida, USA",
-    "description": "LNH & Partner — Miami's renovation and remodeling specialists. Kitchens, bathrooms, full homes, and commercial spaces, backed by complete construction support.",
+    "address": "Miami, Florida, EE. UU.",
+    "description": "LNH & Partner — especialistas en reformas y remodelación en Miami. Cocinas, baños, viviendas completas y espacios comerciales, con apoyo integral de construcción.",
     "email": "info@lnhpartner.com",
     "emailHref": "mailto:info@lnhpartner.com",
     "name": "LNH & Partner",
@@ -480,39 +480,39 @@
         "_key": "41e5b42f3e6545e0",
         "_type": "navLink",
         "href": "#services",
-        "label": "Services"
+        "label": "Servicios"
       },
       {
         "_key": "2bc24c7350f74de4",
         "_type": "navLink",
         "href": "#about",
-        "label": "About"
+        "label": "Nosotros"
       },
       {
         "_key": "f57426035d34466a",
         "_type": "navLink",
         "href": "#projects",
-        "label": "Projects"
+        "label": "Proyectos"
       },
       {
         "_key": "8c3ac1ca32864c30",
         "_type": "navLink",
         "href": "#team",
-        "label": "Team"
+        "label": "Equipo"
       },
       {
         "_key": "759ff48a997d40ae",
         "_type": "navLink",
         "href": "#contact",
-        "label": "Contact"
+        "label": "Contacto"
       }
     ],
     "partnerName": "Style by Global",
     "partnerUrl": "https://www.stylebyglobal.com",
     "phone": "+1 786 658 0795",
     "phoneHref": "tel:+17866580795",
-    "tagline": "Renovation & Remodeling Specialists",
-    "url": "https://www.lnhpartner.com",
-    "whatsappHref": "https://wa.me/17866580795?text=Hi%20LNH%20%26%20Partner%2C%20I%27d%20like%20to%20request%20a%20quote."
+    "tagline": "Especialistas en Reformas y Remodelación",
+    "url": "https://www.lnhpartner.com/es",
+    "whatsappHref": "https://wa.me/17866580795?text=Hola%20LNH%20%26%20Partner%2C%20me%20gustar%C3%ADa%20pedir%20un%20presupuesto."
   }
 }

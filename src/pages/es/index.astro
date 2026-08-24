@@ -11,7 +11,7 @@ import Partner from '@sections/Partner.astro';
 import Team from '@sections/Team.astro';
 import Testimonials from '@sections/Testimonials.astro';
 import Contact from '@sections/Contact.astro';
-import content from '../data/content.json';
+import content from '../../data/content.es.json';
 
 const siteConfig: any = (content as any).siteConfig;
 const homePage: any = (content as any).homePage;
@@ -25,20 +25,20 @@ const servicesBlock = sections.find((s: any) => s._type === 'servicesBlock');
 const services = servicesBlock?.services ?? [];
 ---
 
-<Layout siteConfig={siteConfig} services={services}>
+<Layout siteConfig={siteConfig} services={services} lang="es">
   {sections.map((block: any) => {
     switch (block._type) {
       case 'heroBlock': return <Hero block={block} />;
       case 'servicesBlock': return <Services block={block} />;
       case 'aboutBlock': return <About block={block} />;
       case 'whyBlock': return <Why block={block} />;
-      case 'projectsBlock': return <Projects block={block} lang="en" />;
+      case 'projectsBlock': return <Projects block={block} lang="es" />;
       case 'pergolasBlock': return <Pergolas block={block} />;
       case 'galleryBlock': return <Gallery block={block} />;
       case 'partnerBlock': return <Partner block={block} />;
       case 'teamBlock': return <Team block={block} />;
       case 'testimonialsBlock': return <Testimonials block={block} />;
-      case 'contactBlock': return <Contact block={block} siteConfig={siteConfig} services={services} lang="en" />;
+      case 'contactBlock': return <Contact block={block} siteConfig={siteConfig} services={services} lang="es" />;
       default: return null;
     }
   })}

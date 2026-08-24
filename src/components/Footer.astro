@@ -2,8 +2,16 @@
 import Logo from './Logo.astro';
 import Icon from './Icon.astro';
 
-type Props = { siteConfig: any; services?: any[] };
-const { siteConfig, services = [] } = Astro.props;
+type Props = { siteConfig: any; services?: any[]; lang?: 'en' | 'es' };
+const { siteConfig, services = [], lang = 'en' } = Astro.props;
+const es = lang === 'es';
+const t = {
+  navigate: es ? 'Navegación' : 'Navigate',
+  services: es ? 'Servicios' : 'Services',
+  contact: es ? 'Contacto' : 'Contact',
+  rights: es ? 'Todos los derechos reservados.' : 'All rights reserved.',
+  proud: es ? 'Representante oficial de' : 'Proud representative of',
+};
 const links = siteConfig?.navLinks ?? [];
 const year = new Date().getFullYear();
 ---
@@ -21,7 +29,7 @@ const year = new Date().getFullYear();
 
     <div>
       <h4 class="mb-5 text-xs font-semibold uppercase tracking-[0.2em] text-gold-400">
-        Navigate
+        {t.navigate}
       </h4>
       <ul class="space-y-3 text-sm text-white/70">
         {
@@ -38,7 +46,7 @@ const year = new Date().getFullYear();
 
     <div>
       <h4 class="mb-5 text-xs font-semibold uppercase tracking-[0.2em] text-gold-400">
-        Services
+        {t.services}
       </h4>
       <ul class="space-y-3 text-sm text-white/70">
         {
@@ -51,7 +59,7 @@ const year = new Date().getFullYear();
 
     <div>
       <h4 class="mb-5 text-xs font-semibold uppercase tracking-[0.2em] text-gold-400">
-        Contact
+        {t.contact}
       </h4>
       <ul class="space-y-4 text-sm text-white/70">
         {siteConfig?.phone && (
@@ -82,10 +90,10 @@ const year = new Date().getFullYear();
 
   <div class="border-t border-white/10">
     <div class="container-x flex flex-col items-center justify-between gap-4 py-6 text-xs text-white/50 sm:flex-row">
-      <p>© {year} {siteConfig?.name}. All rights reserved.</p>
+      <p>© {year} {siteConfig?.name}. {t.rights}</p>
       {siteConfig?.partnerName && (
         <p>
-          Proud representative of
+          {t.proud}
           <a
             href={siteConfig.partnerUrl || '#'}
             target="_blank"

@@ -2,9 +2,12 @@
 import Logo from './Logo.astro';
 import Icon from './Icon.astro';
 
-type Props = { siteConfig: any };
-const { siteConfig } = Astro.props;
+type Props = { siteConfig: any; lang?: 'en' | 'es' };
+const { siteConfig, lang = 'en' } = Astro.props;
 const links = siteConfig?.navLinks ?? [];
+const esEs = lang === 'es';
+const ctaLabel = esEs ? 'Pedir presupuesto' : 'Get a Quote';
+const otroIdioma = esEs ? { href: '/', code: 'EN' } : { href: '/es', code: 'ES' };
 ---
 
 <header
@@ -34,8 +37,15 @@ const links = siteConfig?.navLinks ?? [];
     </nav>
 
     <div class="hidden items-center gap-4 lg:flex">
+      <a
+        href={otroIdioma.href}
+        class="header-lang rounded-md border border-white/25 px-2.5 py-1 text-xs font-semibold tracking-wider text-white/85 transition-colors hover:border-white/60 hover:text-white"
+        aria-label={esEs ? 'Switch to English' : 'Ver en español'}
+      >
+        {otroIdioma.code}
+      </a>
       <a href="#contact" class="btn btn-primary !py-2.5">
-        Get a Quote
+        {ctaLabel}
         <Icon name="arrowRight" class="h-4 w-4" />
       </a>
     </div>
@@ -74,10 +84,16 @@ const links = siteConfig?.navLinks ?? [];
         }
       </ul>
     </nav>
-    <div class="mt-auto">
+    <div class="mt-auto space-y-3">
       <a href="#contact" class="btn btn-primary mobile-nav-link w-full">
-        Get a Quote
+        {ctaLabel}
         <Icon name="arrowRight" class="h-4 w-4" />
+      </a>
+      <a
+        href={otroIdioma.href}
+        class="block w-full rounded-md border border-navy-900/15 py-2.5 text-center text-sm font-semibold text-navy-900"
+      >
+        {esEs ? 'View in English' : 'Ver en español'}
       </a>
     </div>
   </div>
